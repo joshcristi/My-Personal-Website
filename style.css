@@ -1,0 +1,45 @@
+.header-name {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  text-align: left;
+  padding-right: 520px;
+}
+
+header {
+  text-align: right;
+  background-color: rgb(152, 148, 103);
+}
+
+body {
+  background-color: bisque;
+}
+
+.intro-statement {
+  font-size: 30px;
+}
+
+aside {
+  display:inline-block;
+  font-size: 50px;
+  padding-left: 150px;
+ 
+}
+
+.personal-photo {
+  padding-left: 150px;
+  width: 300px;
+  padding-top: 20px;
+  
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.home-button {
+  color: white;
+  font-size: 20px;
+  padding-right: 10px;
+}

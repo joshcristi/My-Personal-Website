@@ -4,12 +4,13 @@
   color: white;
   display: inline-block;
   text-align: left;
-  padding-right: 1050px;
+  padding-right: 1070px;
 }
 
 nav {
   text-align: right;
   background-color: rgb(152, 148, 103);
+  margin-bottom: 100px;
 }
 
 body {
@@ -60,12 +61,16 @@ h1 {
   background-color: rgb(227, 181, 121);
   font-size: 30px;
   text-align: center;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right:100px;
 }
-
 
 .snowboard-container {
   display:flex;
-  margin-bottom: 50px;
+  border:solid;
+  border-radius: 3px;
+  border-color: rgb(152, 148, 103);
 }
 
 
@@ -83,6 +88,11 @@ h1 {
 .exercise-container {
   display: flex;
   background-color: rgb(227, 181, 121);
+  border:solid;
+  border-color: rgb(152, 148, 103);
+  border-radius: 3px;
+  
+
 }
 
 .exercise-pic {
@@ -91,7 +101,7 @@ h1 {
 
 .exercise-text h1 {
   margin-left: 680px;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 .exercise-text p {
@@ -102,6 +112,10 @@ h1 {
 
 .hiking-container {
   display: flex;
+  border:solid;
+  border-radius: 3px;
+  border-color: rgb(152, 148, 103);
+  
 }
 
 .hiking-pic {
@@ -110,11 +124,39 @@ h1 {
 
 .hiking-text h1 {
   margin-left: 490px;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 .hiking-text p {
   margin-left: 20px;
   margin-top: 50px;
   font-size: 30px;
+}
+
+.resume-pic, .zoo-pic, .grocery-pic {
+  width: 500px;
+  margin-left: 25px;
+}
+
+.resume-container {
+  display: flex;
+  margin-top: 30px;
+}
+
+.resume-container p {
+  margin-left: 30px;
+  margin-right: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  margin-top: 50px;
+  font-size: 25px;
+  font-family: OCR A Std, monospace;
+  color: rgb(188, 112, 11);
+}
+
+.project-title {
+  margin-left: 25px;
+  color: rgb(70, 97, 65);
+  margin-top: 70px;
 }

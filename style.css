@@ -55,11 +55,14 @@ h1 {
   color: white;
   font-size: 20px;
   padding-right: 10px;
-  transition: 1s;
+  transition: 1.5s;
+  cursor: pointer;
 }
 
 .nav-button:hover {
   color: blue;
+  font-size: 23px;
+  
 }
 
 .about-page {

@@ -3,7 +3,7 @@
   font-weight: bold;
   color: white;
   display: inline-block;
-  padding-right: 1070px;
+  padding-right: 1000px;
 }
 
 nav {
@@ -169,3 +169,19 @@ h1 {
   color: rgb(70, 97, 65);
   margin-top: 70px;
 }
+
+label, input {
+  display: block;
+}
+
+label {
+  font-size: 25px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+

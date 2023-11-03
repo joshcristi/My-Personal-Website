@@ -181,7 +181,11 @@ label {
 .form-container {
   display: flex;
   justify-content: center;
+  border: solid 2px;
+  margin: 0 300px;
+  padding-bottom: 20px;
 }
+
 
 
 
